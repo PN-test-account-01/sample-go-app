@@ -31,3 +31,4 @@ jobs:
         kind: scan
         with:
           language: GO
+        
