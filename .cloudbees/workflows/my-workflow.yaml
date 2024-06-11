@@ -25,10 +25,9 @@ jobs:
         name: "Scan with GoSec "
         kind: scan
         with:
-          language: GO
+          language: LANGUAGE_GO
       - uses: cloudbees-io/sonarqube-bundled-sast-scan-code@v2
         name: Scan with Sonarqube
         kind: scan
         with:
           language: GO
-        
